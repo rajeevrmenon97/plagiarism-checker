@@ -220,7 +220,7 @@ def plagiarismCheck(text1,text2,index_list):
     resultvalue=run(text1,text2)
     print ('tile content is ',resultvalue.getTiles())
     print (resultvalue.similarity)
-    print ('tile similarity content copy authentication ')
+    print ('\n')
 
     tmp1=text1.split()
 
